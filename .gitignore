@@ -2,9 +2,7 @@ influxdb/data/*
 !influxdb/data/.gitkeep
 
 grafana/data/*
-grafana/logs/*
 !grafana/data/.gitkeep
-!grafana/logs/.gitkeep
 !grafana/data/dashboards
 
 grafana/data/dashboards/custom/*
