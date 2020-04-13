@@ -1,0 +1,9 @@
+influxdb/data/*
+!influxdb/data/.gitkeep
+
+grafana/data/*
+grafana/logs/*
+grafana/dashboards/custom/*
+!grafana/data/.gitkeep
+!grafana/logs/.gitkeep
+!grafana/dashboards/custom/.gitkeep
