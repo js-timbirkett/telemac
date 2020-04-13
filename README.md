@@ -37,5 +37,7 @@ JSON, and add them to:
 ### Telemac Dashboards:
 
 #### [System](http://localhost:3000/d/telemacsystem/system?orgId=1&refresh=1m)
+![Telemac System Dashboard](./img/system.png "Telemac System Dashboard")
 
 #### [Processes](http://localhost:3000/d/telemacprocesses/processes?orgId=1&refresh=1m)
+![Telemac Processes Dashboard](./img/processes.png "Telemac Processes Dashboard")
