@@ -30,5 +30,6 @@ Grafana is available at: http://localhost:3000
 - Password: `admin`
 
 ### Custom Dashboards
-You can create custom dashboards in the UI, export the JSON and add them to:
+You can create custom dashboards in the UI under the `Custom` folder, export the
+JSON, and add them to:
 - `./grafana/data/dashboards/custom/`
