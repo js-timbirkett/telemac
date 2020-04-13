@@ -5,16 +5,10 @@ providers:
   orgId: 1
   folder: 'Telemac'
   folderUid: 'telemac'
-  # <string, required> provider type. Required
   type: file
-  # <bool> disable dashboard deletion
   disableDeletion: false
-  # <bool> enable dashboard editing
   editable: true
-  # <int> how often Grafana will scan for changed dashboards
   updateIntervalSeconds: 10
-  # <bool> allow updating provisioned dashboards from the UI
   allowUiUpdates: false
   options:
-    # <string, required> path to dashboard files on disk. Required
-    path: /var/lib/grafana/dashboards
+    path: /var/lib/grafana/dashboards/telemac
