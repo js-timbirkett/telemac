@@ -10,17 +10,3 @@ remove:
 	brew services stop telegraf || true
 	brew uninstall telegraf
 	docker-compose down
-
-.PHONY: start
-start:
-	brew services restart telegraf
-	docker-compose up --detach
-
-.PHONY: stop
-stop:
-	brew services stop telegraf
-	docker-compose down
-
-.PHONY: dashboard
-dashboard:
-	open http://localhost:3000
